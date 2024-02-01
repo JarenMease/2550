@@ -1,0 +1,92 @@
+/* FILEPATH: /C:/Users/jaren/OneDrive/Documents/UVU CS/UVU CS/2550/Project 1 About Me/css */
+
+/* Resetting default margin and padding for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global font styling */
+body, h1, h2, p, li {
+    font-family: Helvetica, sans-serif;
+}
+
+/* Body background image styling */
+body {
+    background-image: url(repeating-background.jpg);
+    background-repeat: repeat-x;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+}
+
+/* Profile picture styling */
+img {
+    float: right;
+    margin: 10px;
+}
+
+/* Anchor (link) styling */
+a {
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+/* Schedule table styling */
+.schedule-table, th, td {
+    border: 1px solid black;
+    padding: 3px;
+    border-spacing: 3px;
+    vertical-align: top;
+    width: 100px;
+    table-layout: fixed;
+    text-align: left;
+}
+
+/* Schedule table background colors */
+.schedule-table th {
+    background-color: blanchedalmond;
+}
+
+.schedule-table td[style*="lightgreen"] {
+    background-color: lightgreen;
+}
+
+.schedule-table td[style*="lightcyan"] {
+    background-color: lightcyan;
+}
+
+.schedule-table td[style*="lightsalmon"] {
+    background-color: lightsalmon;
+}
+
+.schedule-table td[style*="lightgoldenrodyellow"] {
+    background-color: lightgoldenrodyellow;
+}
+
+.schedule-table td[style*="lightcoral"] {
+    background-color: lightcoral;
+}
+
+.schedule-table td[style*="lightslategray"] {
+    background-color: lightslategray;
+}
+
+.schedule-table td[style*="lightseagreen"] {
+    background-color: lightseagreen;
+}
+
+/* Centered and italicized text */
+.center {
+    text-align: center;
+}
+
+.italic {
+    font-style: italic;
+}
